@@ -2,7 +2,7 @@
    "name": "Keep awake",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "The extension allows to manage system power setting, allows to keep and stay system awake or use it's default behaviour.",
+  "description": "The extension allows to manage system power setting, allows to keep and stay system and display awake or use default behaviour.",
   "version": "0.1",
   "icons": { "16": "img/icons/eye-chrome-16.png",
            "48": "img/icons/eye-chrome-48.png",

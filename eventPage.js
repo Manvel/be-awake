@@ -23,7 +23,7 @@ function saveSetting(change) {
 }
 
 function showActive() {
-	chrome.power.requestKeepAwake("system");
+	chrome.power.requestKeepAwake("display");
 	chrome.browserAction.setIcon({"path":"img/icons/eye-chrome-38.png"});
 	//chrome.browserAction.setBadgeText({"text":" on "});
 }
