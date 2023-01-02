@@ -5,12 +5,13 @@
   "default_locale": "en_US",
   "manifest_version": 3,
   "icons": {
-    "16": "img/icons/eye-chrome-16.png",
-    "48": "img/icons/eye-chrome-48.png",
-    "128": "img/icons/eye-chrome-128.png"
+    "16": "img/icons/icon-16.png",
+    "32": "img/icons/icon-32.png",
+    "48": "img/icons/icon-48.png",
+    "128": "img/icons/icon-128.png"
   },
   "action": {
-   "default_icon": "img/icons/eye-slip-38.png"
+   "default_icon": "img/icons/inactive-48.png"
   },
   "background": {
     "service_worker": "eventPage.js"

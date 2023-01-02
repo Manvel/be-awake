@@ -24,12 +24,12 @@ function run(toggle) {
 
 function showActive() {
 	chrome.power.requestKeepAwake("display");
-	chrome.action.setIcon({"path":"img/icons/eye-chrome-38.png"});
+	chrome.action.setIcon({"path":"img/icons/active-48.png"});
 }
 
 function showInactive() {
 	chrome.power.releaseKeepAwake();
-	chrome.action.setIcon({"path":"img/icons/eye-slip-38.png"});	
+	chrome.action.setIcon({"path":"img/icons/inactive-48.png"});	
 }
 
 //run method on extension install and update
