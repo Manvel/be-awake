@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha tests/main.js --timeout 10000",
     "localize": "node localization/generate.js",
-    "build": "cd src/;zip -r ../privacy-manager.zip .;cd .."
+    "build": "cd src/;zip -r ../be-awake.zip .;cd .."
   },
   "repository": {
     "type": "git",
