@@ -1,4 +1,5 @@
-const {readFile, writeFile} = require("fs/promises");
+const {readFile, writeFile, mkdir} = require("fs/promises");
+const {existsSync} = require("fs");
 const { join } = require("path");
 const targetPath = "src/_locales";
 
@@ -16,7 +17,11 @@ async function run() {
   }
 
   for (const locale in resultData) {
-    await writeFile(join(targetPath, locale, "messages.json"), JSON.stringify(obj, null,2));
+    const localeDir = join(targetPath, locale);
+    if (!existsSync(localeDir)) {
+      await mkdir(localeDir);
+    }
+    await writeFile(join("./", targetPath, locale, "messages.json"), JSON.stringify(resultData[locale], null,2));
   }
 }
 
