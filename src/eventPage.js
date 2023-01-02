@@ -1,18 +1,18 @@
 //Save settings and manage icon
-function saveSetting(change) {
+function saveSetting(toggle) {
 	//Retrive setting 
 	chrome.storage.local.get(function(result){
 		// In case if power setting is Active
 		if(result.power) {
 			// Change setting
-			if(change) {
+			if(toggle) {
 				chrome.storage.local.set({"power":false});
 				showInactive();
 			} else {
 				showActive();
 			}
 		} else {
-			if(change) {
+			if(toggle) {
 				chrome.storage.local.set({"power":true});
 				showActive();
 			} else {
@@ -25,13 +25,11 @@ function saveSetting(change) {
 function showActive() {
 	chrome.power.requestKeepAwake("display");
 	chrome.browserAction.setIcon({"path":"img/icons/eye-chrome-38.png"});
-	//chrome.browserAction.setBadgeText({"text":" on "});
 }
 
 function showInactive() {
 	chrome.power.releaseKeepAwake();
-	chrome.browserAction.setIcon({"path":"img/icons/eye-slip-38.png"});
-	//chrome.browserAction.setBadgeText({"text":" off "});
+	chrome.browserAction.setIcon({"path":"img/icons/eye-slip-38.png"});	
 }
 
 //run method on extension install and update

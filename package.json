@@ -1,0 +1,23 @@
+{
+  "name": "be-awake",
+  "version": "1.0.0",
+  "description": "Browser extension for overriding operation system's power management features, through action icon in toolbar for Chrome OS and Chromium based browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/main.js --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manvel/be-awake.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manvel/be-awake/issues"
+  },
+  "homepage": "https://github.com/Manvel/be-awake#readme",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "puppeteer": "^19.4.1"
+  }
+}
