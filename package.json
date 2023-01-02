@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/main.js --timeout 10000",
-    "localize": "node localization/generate.js"
+    "localize": "node localization/generate.js",
+    "build": "cd src/;zip -r ../privacy-manager.zip .;cd .."
   },
   "repository": {
     "type": "git",
