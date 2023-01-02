@@ -1,17 +1,18 @@
 {
-   "name": "Be awake",
+  "name": "Be awake",
   "version": "0.3",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Extension for managing system power settings, allows requesting system to keep awake.",
-  "icons": { "16": "img/icons/eye-chrome-16.png",
-           "48": "img/icons/eye-chrome-48.png",
-          "128": "img/icons/eye-chrome-128.png" },
-  "browser_action": {
+  "icons": {
+    "16": "img/icons/eye-chrome-16.png",
+    "48": "img/icons/eye-chrome-48.png",
+    "128": "img/icons/eye-chrome-128.png"
+  },
+  "action": {
    "default_icon": "img/icons/eye-slip-38.png"
   },
   "background": {
-    "scripts": ["eventPage.js"],
-    "persistent": true
+    "service_worker": "eventPage.js"
   },
   "permissions": [
     "storage", "power"
