@@ -1,4 +1,8 @@
 {
-  "chrome_extension_description": "تمديد يحافظ على حاسوبك نائماً، عن طريق طلب من النظام عدم النوم عند التفعيل باستخدام الأيقونة",
-  "chrome_extension_name": "Be awake"
+  "chrome_extension_description": {
+    "message": "تمديد يحافظ على حاسوبك نائماً، عن طريق طلب من النظام عدم النوم عند التفعيل باستخدام الأيقونة"
+  },
+  "chrome_extension_name": {
+    "message": "Be awake"
+  }
 }

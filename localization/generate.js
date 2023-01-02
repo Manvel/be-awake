@@ -12,7 +12,7 @@ async function run() {
       if (!resultData[locale]) {
         resultData[locale] = {}
       }
-      resultData[locale][stringName] = translationFile[stringName][locale];
+      resultData[locale][stringName] = {"message": translationFile[stringName][locale]};
     }
   }
 

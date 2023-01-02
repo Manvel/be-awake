@@ -1,4 +1,8 @@
 {
-  "chrome_extension_description": "アイコンを使用してアクティブ化すると、システムがスリープしないように要求することで、コンピュータを起動し続けるエクステンション",
-  "chrome_extension_name": "Be awake"
+  "chrome_extension_description": {
+    "message": "アイコンを使用してアクティブ化すると、システムがスリープしないように要求することで、コンピュータを起動し続けるエクステンション"
+  },
+  "chrome_extension_name": {
+    "message": "Be awake"
+  }
 }

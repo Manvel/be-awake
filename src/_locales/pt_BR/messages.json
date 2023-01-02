@@ -1,4 +1,8 @@
 {
-  "chrome_extension_description": "Extensão que mantém o seu computador ligado, solicitando ao sistema para não entrar em modo de suspensão quando ativada usando o ícone",
-  "chrome_extension_name": "Be awake"
+  "chrome_extension_description": {
+    "message": "Extensão que mantém o seu computador ligado, solicitando ao sistema para não entrar em modo de suspensão quando ativada usando o ícone"
+  },
+  "chrome_extension_name": {
+    "message": "Be awake"
+  }
 }

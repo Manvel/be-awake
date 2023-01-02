@@ -1,4 +1,8 @@
 {
-  "chrome_extension_description": "Extensión que mantiene tu ordenador activo, solicitando al sistema que no se duerma cuando se activa mediante el icono",
-  "chrome_extension_name": "Be awake"
+  "chrome_extension_description": {
+    "message": "Extensión que mantiene tu ordenador activo, solicitando al sistema que no se duerma cuando se activa mediante el icono"
+  },
+  "chrome_extension_name": {
+    "message": "Be awake"
+  }
 }

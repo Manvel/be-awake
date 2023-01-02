@@ -1,4 +1,8 @@
 {
-  "chrome_extension_description": "תוסף שמחזק את המחשב הפעיל, על־ידי בקשה מהמערכת לא לנפוץ כאשר מופעל באמצעות סמל",
-  "chrome_extension_name": "Be awakeל"
+  "chrome_extension_description": {
+    "message": "תוסף שמחזק את המחשב הפעיל, על־ידי בקשה מהמערכת לא לנפוץ כאשר מופעל באמצעות סמל"
+  },
+  "chrome_extension_name": {
+    "message": "Be awakeל"
+  }
 }

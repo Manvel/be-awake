@@ -1,4 +1,8 @@
 {
-  "chrome_extension_description": "当使用图标激活时，请求系统不要休眠的扩展，以使您的计算机保持唤醒",
-  "chrome_extension_name": "Be awake"
+  "chrome_extension_description": {
+    "message": "当使用图标激活时，请求系统不要休眠的扩展，以使您的计算机保持唤醒"
+  },
+  "chrome_extension_name": {
+    "message": "Be awake"
+  }
 }

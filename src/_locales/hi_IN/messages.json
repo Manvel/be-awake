@@ -1,4 +1,8 @@
 {
-  "chrome_extension_description": "आइकन का उपयोग करके सक्रिय किया जाने पर सिस्टम को नहीं सोने देने वाल",
-  "chrome_extension_name": "Be awake"
+  "chrome_extension_description": {
+    "message": "आइकन का उपयोग करके सक्रिय किया जाने पर सिस्टम को नहीं सोने देने वाल"
+  },
+  "chrome_extension_name": {
+    "message": "Be awake"
+  }
 }
