@@ -16,3 +16,15 @@ https://chrome.google.com/webstore/detail/be-awake/ibaenepllmhoekeccnhdbnijijebe
 npm i       # Install dependencies
 npm test    # Run tests
 ```
+
+## Generating translations file
+
+```
+npm run localize
+```
+
+## Publishing
+
+```
+npm run build
+```
