@@ -1,16 +1,16 @@
 {
   "chrome_extension_description": {
-    "zh-CN": "当使用图标激活时，请求系统不要休眠的扩展，以使您的计算机保持唤醒",
-    "hi-IN": "आइकन का उपयोग करके सक्रिय किया जाने पर सिस्टम को नहीं सोने देने वाल",
-    "fr-FR": "Extension qui empêche votre ordinateur de se mettre en veille, en demandant au système de ne pas dormir lorsqu'elle est activée en utilisant l'icône",
-    "es-ES": "Extensión que mantiene tu ordenador activo, solicitando al sistema que no se duerma cuando se activa mediante el icono",
-    "de-DE": "Erweiterung, die verhindert, dass Ihr Computer in den Ruhezustand versetzt wird, indem sie das System darum bittet, nicht zu schlafen, wenn sie mithilfe des Symbols aktiviert wird",
-    "pt-BR": "Extensão que mantém o seu computador ligado, solicitando ao sistema para não entrar em modo de suspensão quando ativada usando o ícone",
-    "ru-RU": "Расширение, которое предотвращает переход компьютера в режим сна, запрашивая у системы не засыпать при активации с помощью значка",
-    "ar-SA": "تمديد يحافظ على حاسوبك نائماً، عن طريق طلب من النظام عدم النوم عند التفعيل باستخدام الأيقونة",
-    "ja-JP": "アイコンを使用してアクティブ化すると、システムがスリープしないように要求することで、コンピュータを起動し続けるエクステンション",
-    "ko-KR": "아이콘을 사용하여 활성화할 때 시스템이 잠들지 않도록 요청하는 컴퓨터를 깨우는 확장 기능",
-    "tr-TR": "Simge kullanarak etkinleştirildiğinde sistemin uykuya gitmemesi için isteyen, bilgisayarınızı uygun hale getiren uzantı",
-    "he-IL": "תוסף שמחזק את המחשב הפעיל, על־ידי בקשה מהמערכת לא לנפוץ כאשר מופעל באמצעות סמל"
+    "zh_CN": "当使用图标激活时，请求系统不要休眠的扩展，以使您的计算机保持唤醒",
+    "hi_IN": "आइकन का उपयोग करके सक्रिय किया जाने पर सिस्टम को नहीं सोने देने वाल",
+    "fr_FR": "Extension qui empêche votre ordinateur de se mettre en veille, en demandant au système de ne pas dormir lorsqu'elle est activée en utilisant l'icône",
+    "es_ES": "Extensión que mantiene tu ordenador activo, solicitando al sistema que no se duerma cuando se activa mediante el icono",
+    "de_DE": "Erweiterung, die verhindert, dass Ihr Computer in den Ruhezustand versetzt wird, indem sie das System darum bittet, nicht zu schlafen, wenn sie mithilfe des Symbols aktiviert wird",
+    "pt_BR": "Extensão que mantém o seu computador ligado, solicitando ao sistema para não entrar em modo de suspensão quando ativada usando o ícone",
+    "ru_RU": "Расширение, которое предотвращает переход компьютера в режим сна, запрашивая у системы не засыпать при активации с помощью значка",
+    "ar_SA": "تمديد يحافظ على حاسوبك نائماً، عن طريق طلب من النظام عدم النوم عند التفعيل باستخدام الأيقونة",
+    "ja_JP": "アイコンを使用してアクティブ化すると、システムがスリープしないように要求することで、コンピュータを起動し続けるエクステンション",
+    "ko_KR": "아이콘을 사용하여 활성화할 때 시스템이 잠들지 않도록 요청하는 컴퓨터를 깨우는 확장 기능",
+    "tr_TR": "Simge kullanarak etkinleştirildiğinde sistemin uykuya gitmemesi için isteyen, bilgisayarınızı uygun hale getiren uzantı",
+    "he_IL": "תוסף שמחזק את המחשב הפעיל, על־ידי בקשה מהמערכת לא לנפוץ כאשר מופעל באמצעות סמל"
   }
 }

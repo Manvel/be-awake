@@ -2,7 +2,7 @@
   "version": "0.3",
   "name": "__MSG_chrome_extension_name__",
   "description": "__MSG_chrome_extension_description__",
-  "default_locale": "en-US",
+  "default_locale": "en_US",
   "manifest_version": 3,
   "icons": {
     "16": "img/icons/eye-chrome-16.png",
