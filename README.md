@@ -9,3 +9,10 @@ https://chrome.google.com/webstore/detail/be-awake/ibaenepllmhoekeccnhdbnijijebe
 1. Ensure that the Developer mode checkbox in the top right-hand corner is checked.
 1. Click Load unpacked button.
 1. Locate and load `src` folder in the repository root directory.
+
+## Testing
+
+```sh
+npm i       # Install dependencies
+npm test    # Run tests
+```

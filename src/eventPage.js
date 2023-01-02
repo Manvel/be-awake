@@ -1,7 +1,7 @@
 //Save settings and manage icon
 function run(toggle) {
 	//Retrive setting 
-	chrome.storage.local.get(function(result){
+	chrome.storage.local.get((result) => {
 		// In case if power setting is Active
 		if(result.power) {
 			// Change setting
@@ -37,11 +37,11 @@ run(false);
 
 //Events registration
 // On icon click
-chrome.action.onClicked.addListener(function actionClicked() {
+chrome.action.onClicked.addListener(() => {
 	run(true);
 });
 
 // On chrome load
-chrome.runtime.onStartup.addListener(function() {
+chrome.runtime.onStartup.addListener(() => {
 	run(false);
 });
