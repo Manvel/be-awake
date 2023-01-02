@@ -4,7 +4,8 @@
   "description": "Browser extension for overriding operation system's power management features, through action icon in toolbar for Chrome OS and Chromium based browsers.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/main.js --timeout 10000"
+    "test": "mocha tests/main.js --timeout 10000",
+    "localize": "node localization/generate.js"
   },
   "repository": {
     "type": "git",
