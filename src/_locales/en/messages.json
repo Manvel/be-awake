@@ -1,0 +1,10 @@
+{
+  "chrome_extension_name": {
+    "description": "Extension name, used in the Web Store",
+    "message": "Be awake"
+  },
+  "chrome_extension_description": {
+    "description": "Extension description, used in the Web Store",
+    "message": "Extension that keeps your computer awake, by requesting the system not to sleep when activated using icon."
+  }
+}
