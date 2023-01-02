@@ -12,5 +12,19 @@
     "ko_KR": "아이콘을 사용하여 활성화할 때 시스템이 잠들지 않도록 요청하는 컴퓨터를 깨우는 확장 기능",
     "tr_TR": "Simge kullanarak etkinleştirildiğinde sistemin uykuya gitmemesi için isteyen, bilgisayarınızı uygun hale getiren uzantı",
     "he_IL": "תוסף שמחזק את המחשב הפעיל, על־ידי בקשה מהמערכת לא לנפוץ כאשר מופעל באמצעות סמל"
+  },
+  "chrome_extension_name": {
+    "zh_CN": "Be awake",
+    "hi_IN": "Be awake",
+    "fr_FR": "Be awake",
+    "es_ES": "Be awake",
+    "de_DE": "Be awake",
+    "pt_BR": "Be awake",
+    "ru_RU": "Be awake",
+    "ar_SA": "Be awake",
+    "ja_JP": "Be awake",
+    "ko_KR": "Be awake",
+    "tr_TR": "Be awake",
+    "he_IL": "Be awakeל"
   }
 }

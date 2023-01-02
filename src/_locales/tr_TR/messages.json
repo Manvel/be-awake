@@ -1,3 +1,4 @@
 {
-  "chrome_extension_description": "Simge kullanarak etkinleştirildiğinde sistemin uykuya gitmemesi için isteyen, bilgisayarınızı uygun hale getiren uzantı"
+  "chrome_extension_description": "Simge kullanarak etkinleştirildiğinde sistemin uykuya gitmemesi için isteyen, bilgisayarınızı uygun hale getiren uzantı",
+  "chrome_extension_name": "Be awake"
 }

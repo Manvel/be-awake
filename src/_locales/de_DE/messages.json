@@ -1,3 +1,4 @@
 {
-  "chrome_extension_description": "Erweiterung, die verhindert, dass Ihr Computer in den Ruhezustand versetzt wird, indem sie das System darum bittet, nicht zu schlafen, wenn sie mithilfe des Symbols aktiviert wird"
+  "chrome_extension_description": "Erweiterung, die verhindert, dass Ihr Computer in den Ruhezustand versetzt wird, indem sie das System darum bittet, nicht zu schlafen, wenn sie mithilfe des Symbols aktiviert wird",
+  "chrome_extension_name": "Be awake"
 }

@@ -1,3 +1,4 @@
 {
-  "chrome_extension_description": "아이콘을 사용하여 활성화할 때 시스템이 잠들지 않도록 요청하는 컴퓨터를 깨우는 확장 기능"
+  "chrome_extension_description": "아이콘을 사용하여 활성화할 때 시스템이 잠들지 않도록 요청하는 컴퓨터를 깨우는 확장 기능",
+  "chrome_extension_name": "Be awake"
 }
